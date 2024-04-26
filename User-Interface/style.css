@@ -1,0 +1,66 @@
+html,body{
+    height: 50%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    height: 70%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    height: 100%;
+}
+.wrapper{
+    height: 90%;
+    padding: 2%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.Items{
+    background-color: lightslategray;
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Suppliers{
+    background-color: lightslategray;
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Item-in{
+    background-color: lightslategray;
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Item-out{
+    background-color: lightslategray;
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

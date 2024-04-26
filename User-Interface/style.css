@@ -32,6 +32,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .Suppliers{
     background-color: lightslategray;
@@ -42,6 +43,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .Item-in{
     background-color: lightslategray;
@@ -52,6 +54,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .Item-out{
     background-color: lightslategray;
@@ -62,5 +65,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 

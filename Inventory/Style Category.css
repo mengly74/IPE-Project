@@ -1,0 +1,44 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+}
+
+.home{
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.inventory{
+    background-color: lightgray;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.Content{
+    display: flex;
+}
+
+.side{
+    padding: 10px 25px;
+    margin: 0px 5px;
+}
+
+.items{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;  
+}
+
+.btn{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+}

@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+}
+
+.home{
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.inventory{
+    background-color: lightgray;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    margin-left: 35px;
+}
+
+.item{
+    flex-grow: 1;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+}
+
+.btn{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin: 10px 20px;
+    font-size: 200px;
+}
+
+.Info{
+    padding: 20px 10px;
+    margin-left: 50px;
+}
+
+.Item-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+table{
+    tr,td{
+        width: 70px;
+        height: 30px;
+    }
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 10px;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 15px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

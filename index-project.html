@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <button id="mybtn" type="button">Item Out</button>
+  
+    <script>
+      const mybtn = document.getElementById("mybtn");
+      mybtn.addEventListener("click", function(e) {
+        const name=prompt("what is your name?");
+        document.body.innerHTML="<h1>welcome, "+name+"!</h1>";
+      });
+    </script>
+  </body>
+</html>

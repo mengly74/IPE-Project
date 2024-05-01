@@ -67,4 +67,10 @@ html,body{
     align-items: center;
     cursor: pointer;
 }
+.btn{
+    border: none;
+    font-size: xx-large;
+    cursor: pointer;
+    background: lightslategray;
+}
 

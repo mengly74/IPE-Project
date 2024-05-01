@@ -1,17 +1,175 @@
 .container{
     width: 550px;
-    height: 500px;
-    background-color: rgb(139, 139, 141);
+    height: 800px;
+    background-color: rgb(194, 194, 194);
     flex-direction: column;
     display: flex;
 }
-.table , td{
+.box1 {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(252, 250, 250);
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 23px;
+    text-align: center;
+}
+.shirt{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+.Datashirt{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left:130px;
+    top: 100px;
+   
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.box2{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.box3{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+.box4{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 295px;
+}
+.skirt{
     width: 100px;
     height: 100px;
     background-color: white;
-    border: 2px solid;
+    border: 1px solid;
+    border-radius: 10px ;
+    position: absolute;
+    right: 400px;
+
+}
+.Dataskirt{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    right: -7px;
+}
+.box5{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.box6{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+.box7{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 294px;
+
+}
+.Trousers{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
     border-radius: 10px;
-    
-    
-    
+    position: absolute;
+    top: 228px;
+    right: 400px;
+}
+.DataTrousers{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 109px;
+    top: -2px; 
+}
+.box8{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.box9{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+.box10{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 294px;
 }

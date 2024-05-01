@@ -1,0 +1,43 @@
+
+.main{
+    width: 50%;
+    height: 8%;
+    background-color: rgb(175, 169, 169);
+    position: absolute;
+    left:50%;
+    top: 10%;
+    translate: -50% -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    position: absolute;
+    top: 19%;
+    left:5%
+}
+.item{
+    width: 90%;
+    height: 5%;
+    background-color:  rgb(175, 169, 169);
+    border: 1px solid;
+    position: absolute;
+    left:5%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.number{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    position: absolute;
+    top:88%;
+    left: 5%;
+}
+.button{
+    position: absolute;
+    left: 86%;
+}

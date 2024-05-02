@@ -5,14 +5,31 @@
     flex-direction: column;
     display: flex;
 }
+.boxhome{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 18px;
+    left: 30px;
+}
+.imghome{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 .box1 {
-    width: 500px;
+    width: 400px;
     height: 50px;
     background-color: rgb(252, 250, 250);
     border: 1px solid;
     border-radius: 10px;
     margin-top: 10px;
-    margin-left: 23px;
+    margin-left: 125px;
     text-align: center;
 }
 .shirt{
@@ -164,6 +181,55 @@
     left: 150px;
 }
 .box10{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 294px;
+}
+.Shose{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+}
+.Datashose{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 110px;
+    top: 0px;
+}
+.box11{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.box12{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+.box13{
     width: 100px;
     height: 20px;
     background-color: white;

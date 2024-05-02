@@ -1,6 +1,6 @@
 .container{
     width: 550px;
-    height: 800px;
+    height: 600px;
     background-color: rgb(194, 194, 194);
     flex-direction: column;
     display: flex;
@@ -238,4 +238,9 @@
     position: absolute;
     top: 5px;
     left: 294px;
+}
+.footer{
+    position: absolute;
+    top: 470px;
+    left: 50px;
 }
